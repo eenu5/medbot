@@ -1,0 +1,47 @@
+#logo
+{
+    height: 100px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+#title
+{
+	text-align: center;
+	color: #44454c;
+	font-size: 30px;
+}
+
+.para
+{
+	text-align: center; 
+	color: #5c5c60;
+}
+
+#nav
+{
+	background-color: #2bbcc4;
+	height: 50px;
+	text-align: center;
+}
+
+button
+{
+	border: none;
+	outline: none;
+	background-color: #2bbcc4;
+	color: white;
+	font-size:20px;
+	margin: 0 10px;
+	vertical-align: middle;
+	line-height: 45px; 
+}
+
+button:hover
+{
+	border-bottom: 2px solid black;
+	color: rgba(20,20,20,0.6);
+}
