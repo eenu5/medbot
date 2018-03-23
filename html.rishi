@@ -1,0 +1,18 @@
+<html>
+<head>
+	<title>MozoFest</title>
+	<link rel="stylesheet" type="text/css" href="medbot.css">
+</head>
+<body>
+<img id="logo" src="https://medbot862713490.files.wordpress.com/2018/03/logo3.png">
+<p id="title">MedBot</p>
+<p class="para">-Your personal BayMax-</p>
+<div id="nav">
+	<a href="https://www.facebook.com/"><button>Home</button></a>
+	<button>Contact Us</button>
+	<button>About Us</button>
+</div>
+<div>
+</div>
+</body>
+</html>
