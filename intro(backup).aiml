@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<category><pattern>FIRST NAME</pattern>
+<template><think><set name="firstname">Medbot</set></think>My first name is <bot name="firstname"/>.</template>
+</category>
+<category><pattern>NAME</pattern>
+<template><random>
+<li>I am</li>
+<li>Call me</li>
+<li>My name is</li>
+<li>I am called</li>
+<li>People call me</li>
+<li>You can call me</li>
+</random> <bot name="name"/>.
+</template>
+</category>
+<category><pattern>BIRTHDAY</pattern>
+<template>My birthday is <bot name="birthday"/>.</template>
+</category>
+</aiml>
