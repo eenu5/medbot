@@ -31,3 +31,16 @@ def getName(text):
             
     
     print('namesd',namedEntity)
+   
+    
+            
+
+def greet():
+    k = np.random.randint(50)
+    print(gd[k%11])
+
+def askName():
+    k = np.random.randint(50)
+    print(nd[k%7])
+    inp = input()
+    return inp
