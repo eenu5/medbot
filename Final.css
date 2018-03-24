@@ -1,0 +1,121 @@
+body
+{
+	margin:0;
+	font-family: 'Montserrat', sans-serif;
+}
+#logo
+{
+    height: 100px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+#title
+{
+	text-align: center;
+	color: #44454c;
+	font-size: 30px;
+}
+
+.para
+{
+	text-align: center; 
+	color: #5c5c60;
+}
+
+.nav {
+    overflow: hidden;
+    background-color: #2bbcc4;
+}
+
+/* Navbar links */
+.nav a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 22%;
+}
+@media screen and (max-width: 500px) {
+    .nav a {
+        float: none;
+        width: 100%;
+    }
+}
+
+.nav a:hover
+{
+ border-bottom: 2px solid #333;
+ color:rgba(3,3,3,0.8);
+}
+
+input
+{
+	outline: none;
+	border: none;
+	padding: 4px;
+	height: 13px;
+	margin-left: 8%;
+
+}
+#search
+{
+	height:22px;
+	margin-top:13px;
+	padding:10px;
+}
+button
+{
+	height:24px;
+	margin-top:13px;
+}
+/*.common
+{
+	border: none;
+	outline: none;
+	background-color: #2bbcc4;
+	color: white;
+	font-size:20px;
+	margin: 0 10px;
+	vertical-align: middle;
+	line-height: 45px; 
+	width: 25%;
+}
+
+.common:hover
+{
+	border-bottom: 2px solid black;
+	color: rgba(20,20,20,0.6);
+}*/
+#section1
+{
+	padding: 10px 10px 10px 70px;
+}
+#section2
+{
+	padding: 10px 10px 10px 70px;
+}
+
+#section3
+{
+	background: #2bbcc4;
+	color: black;
+	padding: 5px 0;
+	border-top: 2px solid #d4d8dd;
+}
+
+.kom
+{
+	margin-left:10px;
+	color:white;
+}
+
+.to:hover
+{
+	transform: scale(1.1);
+}
